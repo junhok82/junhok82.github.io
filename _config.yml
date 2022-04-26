@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 내일이 되면
-subtitle: '출근을 하겠지'
+title: '낭만에 대하여'
+subtitle: 
 description: '현실 개발자의 고군분투'
-keywords:
+keywords: 
 author: 김준호
 language: ko
 timezone: 'asia/seoul'
