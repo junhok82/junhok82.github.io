@@ -24,7 +24,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "node-gyp": "^8.0.0",
+    "node-gyp": "^9.0.0",
     "node-sass": "^7.0.1"
   }
 }
