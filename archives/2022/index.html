@@ -70,30 +70,36 @@ document.addEventListener('DOMContentLoaded', function () {
   </a>
 </div>
     <div id="menu" class="book-menu hide">
-  <ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-</ul>
-<br>
-<h1 id="강의-정리">강의 정리</h1>
-<h3 id="Spring-journey">Spring journey</h3>
-<ul>
-<li><a href="/1">1차</a></li>
-<li><a href="/2">2차</a></li>
-</ul>
-<h3 id="TDD-플레이-그라운드">TDD 플레이 그라운드</h3>
+  <h1 id="강의-정리"><mark><a href="/lecture"> 강의 정리 </a></mark></h1>
+<h2 id="TDD-플레이-그라운드">TDD 플레이 그라운드</h2>
 <ul>
 <li><a href="/3">야구 게임</a></li>
-<li><a href="/4">레이싱 게임</a></li>
+<li><a href="/lecture/tdd/racing">레이싱 게임</a></li>
 </ul>
-<h3 id="인프라-공방">인프라 공방</h3>
+<h2 id="인프라-공방">인프라 공방</h2>
 <ul>
-<li><a href="/5">야구 게임</a></li>
-<li><a href="/6">레이싱 게임</a></li>
+<li><a href="/5">not yet</a></li>
 </ul>
-<h1 id="프로젝트">프로젝트</h1>
+<h1 id="프로젝트"><mark><a href="/project"> 프로젝트 </a></mark></h1>
 <h2 id="Locker">Locker</h2>
+<ul>
+<li><a href="/5">not yet</a></li>
+<li><a href="/6">not yet</a></li>
+</ul>
 <h2 id="ColorPool">ColorPool</h2>
+<ul>
+<li><a href="/5">not yet</a></li>
+<li><a href="/6">not yet</a></li>
+</ul>
+<h2 id="Spring-journey">Spring journey</h2>
+<ul>
+<li><a href="/1">not yet</a></li>
+<li><a href="/2">not yet</a></li>
+</ul>
+<h1 id=""></h1>
+<ul>
+<li><a href="/about">ABOUT 😁</a></li>
+</ul>
 <script>
     const menu = document.getElementById('menu').getElementsByTagName('a')
     
@@ -103,6 +109,13 @@ document.addEventListener('DOMContentLoaded', function () {
             break;
         }
     }
+
+    const h1 = document.getElementById('menu').getElementsByTagName('h1');
+
+    for (elem of h1) {
+        elem.setAttribute('style', 'font-size:0.8rem');
+    }
+
 
 </script>
 </div>
@@ -177,16 +190,9 @@ function sidebar_toggle() {
           <ul class="archive-list-item">
           
               <li>
-                <span>2022-04-26</span>
-                <a href="/d/">
-                  d
-                </a>
-              </li>
-          
-              <li>
-                <span>2022-04-26</span>
-                <a href="/hello-world/">
-                  Hello World
+                <span>2022-04-27</span>
+                <a href="/lecture/tdd/racing/">
+                  racing
                 </a>
               </li>
           
