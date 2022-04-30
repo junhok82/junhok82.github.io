@@ -70,7 +70,15 @@ document.addEventListener('DOMContentLoaded', function () {
   </a>
 </div>
     <div id="menu" class="book-menu hide">
-  <h1 id="강의-정리"><mark><a href="/lecture"> 강의 정리 </a></mark></h1>
+  <h1 id="기록"><a href="/lecture">기록</a></h1>
+<h2 id="Spring">Spring</h2>
+<ul>
+<li><a href="/">binding</a></li>
+</ul>
+<h2 id="Spring-Boot">Spring Boot</h2>
+<ul>
+<li><a href="/"></a></li>
+</ul>
 <h2 id="TDD-플레이-그라운드">TDD 플레이 그라운드</h2>
 <ul>
 <li><a href="/3">야구 게임</a></li>
@@ -80,18 +88,20 @@ document.addEventListener('DOMContentLoaded', function () {
 <ul>
 <li><a href="/5">not yet</a></li>
 </ul>
-<h1 id="프로젝트"><mark><a href="/project"> 프로젝트 </a></mark></h1>
+<h1 id="프로젝트"><a href="/lecture">프로젝트</a></h1>
 <h2 id="Spring-journey">Spring journey</h2>
 <ul>
-<li>
-<p><a href="/1">not yet</a></p>
-</li>
-<li>
-<p><a href="/2">not yet</a></p>
-</li>
-<li>
-<p><a href="/about">ABOUT 😁</a></p>
-</li>
+<li><a href="/1">not yet</a></li>
+<li><a href="/2">not yet</a></li>
+</ul>
+<h2 id="ATDD">ATDD</h2>
+<ul>
+<li><a href="/1">not yet</a></li>
+<li><a href="/2">not yet</a></li>
+</ul>
+<h1 id=""></h1>
+<ul>
+<li><a href="/about">ABOUT 😁</a></li>
 </ul>
 <script>
     const menu = document.getElementById('menu').getElementsByTagName('a')
@@ -101,12 +111,6 @@ document.addEventListener('DOMContentLoaded', function () {
             elem.classList.add('current-tab');
             break;
         }
-    }
-
-    const h1 = document.getElementById('menu').getElementsByTagName('h1');
-
-    for (elem of h1) {
-        elem.setAttribute('style', 'font-size:0.8rem');
     }
 
 

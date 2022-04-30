@@ -1,6 +1,11 @@
+@import url("https://hangeul.pstatic.net/hangeul_static/css/NanumSeongSirCe.css");
 .book-container {
   width: 100%;
   height: 100%; }
+
+@font-face {
+  font-family: 'agave';
+  src: url("/asset/font/agave_regular_Nerd_Font_Complete_Mono.ttf") format("truetype"); }
 
 html {
   margin: 0;
@@ -198,7 +203,7 @@ img {
       max-width: 100%;
       margin: 0; }
     .off-canvas-content .book-content pre, .off-canvas-content .book-content .highlight {
-      font-family: consolas, Menlo, monospace;
+      font-family: agave, consolas, Menlo, monospace;
       background: #f7f7f7;
       color: #4d4d4c;
       line-height: 1.2rem;
@@ -209,7 +214,7 @@ img {
       -webkit-user-select: none;
       user-select: none; }
     .off-canvas-content .book-content code {
-      font-family: consolas, Menlo, monospace;
+      font-family: agave, consolas, Menlo, monospace;
       border-radius: 3px;
       padding: 2px 4px;
       overflow-wrap: break-word;
@@ -223,7 +228,7 @@ img {
         padding: 0;
         text-shadow: none; }
     .off-canvas-content .book-content .highlight {
-      font-size: 0.6rem;
+      font-size: 0.9em;
       overflow: auto; }
       .off-canvas-content .book-content .highlight *::selection {
         background: #d6d6d6; }
@@ -462,6 +467,11 @@ img {
     .book-sidebar .book-brand a:hover {
       color: #2f2f2f;
       text-decoration: none; }
+
+@font-face {
+  .book-sidebar {
+    font-family: 'NanumGimYuICe';
+    src: url("/asset/font/NanumGimYuICe.ttf") format("truetype"); } }
   .book-sidebar .book-menu {
     position: fixed;
     top: 3.25rem;
@@ -470,7 +480,11 @@ img {
     overflow-x: hidden;
     overflow-y: auto;
     font-size: 0.7rem; }
-    .book-sidebar .book-menu h1,
+    .book-sidebar .book-menu h1 {
+      font-family: 'NanumSeongSirCe';
+      font-size: 1.7em;
+      padding: 0 0.6rem 0 1.25rem;
+      margin: 1.25rem 0 0.625rem 0; }
     .book-sidebar .book-menu h2,
     .book-sidebar .book-menu h3,
     .book-sidebar .book-menu h4,
@@ -478,7 +492,8 @@ img {
     .book-sidebar .book-menu h6 {
       padding: 0 0.6rem 0 1.25rem;
       margin: 1.25rem 0 0.625rem 0;
-      font-size: 0.7rem; }
+      font-size: 1.5em;
+      font-family: 'NanumGimYuICe'; }
     .book-sidebar .book-menu ul,
     .book-sidebar .book-menu ol,
     .book-sidebar .book-menu li {
