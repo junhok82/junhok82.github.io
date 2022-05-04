@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
 .book-container {
@@ -60,142 +61,146 @@ img {
     @media all and (max-width: 1280px) {
       .off-canvas-content .book-content {
         padding: 0 1.25rem; } }
-    .off-canvas-content .book-content .book-post a:hover {
-      text-decoration: underline; }
-    .off-canvas-content .book-content .book-post > *:first-child {
-      margin-top: 0 !important; }
-    .off-canvas-content .book-content .book-post h1,
-    .off-canvas-content .book-content .book-post h2,
-    .off-canvas-content .book-content .book-post h3,
-    .off-canvas-content .book-content .book-post h4,
-    .off-canvas-content .book-content .book-post h5,
-    .off-canvas-content .book-content .book-post h6 {
-      font-weight: bold;
-      margin-bottom: 1rem;
-      margin-top: 1.7rem; }
-    .off-canvas-content .book-content .book-post h1,
-    .off-canvas-content .book-content .book-post h2 {
-      padding-bottom: 0.4rem;
-      border-bottom: 1px solid #e7e7e7; }
-    .off-canvas-content .book-content .book-post h1 {
-      font-size: 1.4rem; }
-    .off-canvas-content .book-content .book-post h2 {
-      font-size: 1.125rem; }
-    .off-canvas-content .book-content .book-post h3 {
-      font-size: 1rem; }
-    .off-canvas-content .book-content .book-post h4 {
-      font-size: 0.8rem; }
-    .off-canvas-content .book-content .book-post h5 {
-      font-size: 0.7rem; }
-    .off-canvas-content .book-content .book-post h6 {
-      font-size: 0.6rem;
-      color: grey; }
-    .off-canvas-content .book-content .book-post p {
-      margin-bottom: 1rem; }
-    .off-canvas-content .book-content .book-post hr {
-      border: 1px solid #e7e7e7;
-      background-color: #e7e7e7;
-      margin: 1rem 0; }
-    .off-canvas-content .book-content .book-post .table-wrapper {
-      max-width: 100%;
-      margin: 1.25rem 0;
-      overflow: auto; }
-      .off-canvas-content .book-content .book-post .table-wrapper table {
-        width: 100%;
-        border-spacing: 0px;
-        border-collapse: collapse; }
-        .off-canvas-content .book-content .book-post .table-wrapper table th,
-        .off-canvas-content .book-content .book-post .table-wrapper table td {
-          padding: 0.7rem;
-          border: 1px solid #e7e7e7;
-          text-align: left; }
-    .off-canvas-content .book-content .book-post ul,
-    .off-canvas-content .book-content .book-post ol {
-      list-style-position: outside;
-      margin: 0 0 1rem 1.4rem; }
-      .off-canvas-content .book-content .book-post ul ol,
-      .off-canvas-content .book-content .book-post ol ol {
-        margin-top: 0;
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post ul ul,
-      .off-canvas-content .book-content .book-post ol ul {
-        margin-top: 0;
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post ul p,
-      .off-canvas-content .book-content .book-post ol p {
-        margin: 0; }
-    .off-canvas-content .book-content .book-post blockquote {
-      margin: 1.125rem 0 1.125rem 0;
-      padding: 0.2rem 1rem; }
-      .off-canvas-content .book-content .book-post blockquote p {
-        margin-bottom: 0.5rem; }
-      .off-canvas-content .book-content .book-post blockquote p:last-child {
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post blockquote ul:last-child {
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post blockquote.right {
-        border-left: none;
-        border-right: .1rem solid #dadee4; }
-    .off-canvas-content .book-content .book-post .note {
-      margin: 1.125rem 1.125rem 1.125rem 0;
-      padding: 0.2rem 1rem;
-      background-color: #e7f2fa;
-      border-left: 0.1rem solid #6ab0de; }
-      .off-canvas-content .book-content .book-post .note p {
-        margin-bottom: 0.5rem; }
-      .off-canvas-content .book-content .book-post .note p:last-child {
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post .note ul:last-child {
-        margin-bottom: 0; }
-    .off-canvas-content .book-content .book-post .tip {
-      margin: 1.125rem 1.125rem 1.125rem 0;
-      padding: 0.2rem 1rem;
-      background-color: #dbfaf4;
-      border-left: 0.1rem solid #1abc9c; }
-      .off-canvas-content .book-content .book-post .tip p {
-        margin-bottom: 0.5rem; }
-      .off-canvas-content .book-content .book-post .tip p:last-child {
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post .tip ul:last-child {
-        margin-bottom: 0; }
-    .off-canvas-content .book-content .book-post .attention {
-      margin: 1.125rem 1.125rem 1.125rem 0;
-      padding: 0.2rem 1rem;
-      background-color: #ffedcc;
-      border-left: 0.1rem solid #f0b37e; }
-      .off-canvas-content .book-content .book-post .attention p {
-        margin-bottom: 0.5rem; }
-      .off-canvas-content .book-content .book-post .attention p:last-child {
-        margin-bottom: 0; }
-      .off-canvas-content .book-content .book-post .attention ul:last-child {
-        margin-bottom: 0; }
-    .off-canvas-content .book-content .book-post .video-container {
-      position: relative;
-      margin-bottom: 1.5rem;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden; }
-      .off-canvas-content .book-content .book-post .video-container iframe {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0; }
-    .off-canvas-content .book-content .book-post figcaption {
-      text-align: center;
-      font-size: 0.7rem;
-      margin: 0.5rem 0; }
-    .off-canvas-content .book-content .book-post img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    .off-canvas-content .book-content .book-post iframe {
-      width: 100%; }
-    .off-canvas-content .book-content .book-post .checkbox-item {
-      list-style-type: none; }
-      .off-canvas-content .book-content .book-post .checkbox-item input {
-        margin-left: -1rem;
-        margin-right: 0.4rem; }
+    .off-canvas-content .book-content .book-post {
+      font-family: 'Nanum Gothic', sans-serif; }
+      .off-canvas-content .book-content .book-post a:hover {
+        text-decoration: underline; }
+      .off-canvas-content .book-content .book-post > *:first-child {
+        margin-top: 0 !important; }
+      .off-canvas-content .book-content .book-post h1,
+      .off-canvas-content .book-content .book-post h2,
+      .off-canvas-content .book-content .book-post h3,
+      .off-canvas-content .book-content .book-post h4,
+      .off-canvas-content .book-content .book-post h5,
+      .off-canvas-content .book-content .book-post h6 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-top: 1.7rem; }
+      .off-canvas-content .book-content .book-post h1,
+      .off-canvas-content .book-content .book-post h2 {
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #e7e7e7; }
+      .off-canvas-content .book-content .book-post h1 {
+        font-size: 1.4rem; }
+      .off-canvas-content .book-content .book-post h2 {
+        font-size: 1.125rem; }
+      .off-canvas-content .book-content .book-post h3 {
+        font-size: 1rem; }
+      .off-canvas-content .book-content .book-post h4 {
+        font-size: 0.8rem; }
+      .off-canvas-content .book-content .book-post h5 {
+        font-size: 0.7rem; }
+      .off-canvas-content .book-content .book-post h6 {
+        font-size: 0.6rem;
+        color: grey; }
+      .off-canvas-content .book-content .book-post p {
+        margin-bottom: 1rem;
+        font-size: 0.75rem; }
+      .off-canvas-content .book-content .book-post hr {
+        border: 1px solid #e7e7e7;
+        background-color: #e7e7e7;
+        margin: 1rem 0; }
+      .off-canvas-content .book-content .book-post .table-wrapper {
+        max-width: 100%;
+        margin: 1.25rem 0;
+        overflow: auto; }
+        .off-canvas-content .book-content .book-post .table-wrapper table {
+          width: 100%;
+          border-spacing: 0px;
+          border-collapse: collapse; }
+          .off-canvas-content .book-content .book-post .table-wrapper table th,
+          .off-canvas-content .book-content .book-post .table-wrapper table td {
+            padding: 0.7rem;
+            border: 1px solid #e7e7e7;
+            text-align: left; }
+      .off-canvas-content .book-content .book-post ul,
+      .off-canvas-content .book-content .book-post ol {
+        list-style-position: outside;
+        margin: 0 0 1rem 1.4rem; }
+        .off-canvas-content .book-content .book-post ul ol,
+        .off-canvas-content .book-content .book-post ol ol {
+          margin-top: 0;
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post ul ul,
+        .off-canvas-content .book-content .book-post ol ul {
+          margin-top: 0;
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post ul p,
+        .off-canvas-content .book-content .book-post ol p {
+          margin: 0; }
+      .off-canvas-content .book-content .book-post blockquote {
+        margin: 1.125rem 0 1.125rem 0;
+        padding: 0.2rem 1rem; }
+        .off-canvas-content .book-content .book-post blockquote p {
+          color: dimgrey;
+          margin-bottom: 0.5rem; }
+        .off-canvas-content .book-content .book-post blockquote p:last-child {
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post blockquote ul:last-child {
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post blockquote.right {
+          border-left: none;
+          border-right: .1rem solid #dadee4; }
+      .off-canvas-content .book-content .book-post .note {
+        margin: 1.125rem 1.125rem 1.125rem 0;
+        padding: 0.2rem 1rem;
+        background-color: #e7f2fa;
+        border-left: 0.1rem solid #6ab0de; }
+        .off-canvas-content .book-content .book-post .note p {
+          margin-bottom: 0.5rem; }
+        .off-canvas-content .book-content .book-post .note p:last-child {
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post .note ul:last-child {
+          margin-bottom: 0; }
+      .off-canvas-content .book-content .book-post .tip {
+        margin: 1.125rem 1.125rem 1.125rem 0;
+        padding: 0.2rem 1rem;
+        background-color: #dbfaf4;
+        border-left: 0.1rem solid #1abc9c; }
+        .off-canvas-content .book-content .book-post .tip p {
+          margin-bottom: 0.5rem; }
+        .off-canvas-content .book-content .book-post .tip p:last-child {
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post .tip ul:last-child {
+          margin-bottom: 0; }
+      .off-canvas-content .book-content .book-post .attention {
+        margin: 1.125rem 1.125rem 1.125rem 0;
+        padding: 0.2rem 1rem;
+        background-color: #ffedcc;
+        border-left: 0.1rem solid #f0b37e; }
+        .off-canvas-content .book-content .book-post .attention p {
+          margin-bottom: 0.5rem; }
+        .off-canvas-content .book-content .book-post .attention p:last-child {
+          margin-bottom: 0; }
+        .off-canvas-content .book-content .book-post .attention ul:last-child {
+          margin-bottom: 0; }
+      .off-canvas-content .book-content .book-post .video-container {
+        position: relative;
+        margin-bottom: 1.5rem;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden; }
+        .off-canvas-content .book-content .book-post .video-container iframe {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+      .off-canvas-content .book-content .book-post figcaption {
+        text-align: center;
+        font-size: 0.7rem;
+        margin: 0.5rem 0; }
+      .off-canvas-content .book-content .book-post img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+      .off-canvas-content .book-content .book-post iframe {
+        width: 100%; }
+      .off-canvas-content .book-content .book-post .checkbox-item {
+        list-style-type: none; }
+        .off-canvas-content .book-content .book-post .checkbox-item input {
+          margin-left: -1rem;
+          margin-right: 0.4rem; }
     .off-canvas-content .book-content .book-comments {
       padding: 0 0 1.5rem 0; }
     .off-canvas-content .book-content #disqus_thread {
