@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
 .book-container {
   width: 100%;
   height: 100%; }
@@ -73,6 +73,7 @@ img {
       .off-canvas-content .book-content .book-post h4,
       .off-canvas-content .book-content .book-post h5,
       .off-canvas-content .book-content .book-post h6 {
+        font-family: 'Jua', sans-serif;
         font-weight: bold;
         margin-bottom: 1rem;
         margin-top: 1.7rem; }
@@ -85,7 +86,7 @@ img {
       .off-canvas-content .book-content .book-post h2 {
         font-size: 1.125rem; }
       .off-canvas-content .book-content .book-post h3 {
-        font-size: 1rem; }
+        font-size: 1.125rem; }
       .off-canvas-content .book-content .book-post h4 {
         font-size: 0.8rem; }
       .off-canvas-content .book-content .book-post h5 {
@@ -487,7 +488,6 @@ img {
     overflow-y: auto;
     font-size: 0.7rem; }
     .book-sidebar .book-menu h1 {
-      font-family: 'Sunflower', monospace;
       font-size: 1.4em;
       padding: 0 0.6rem 0 1.25rem;
       margin: 1.25rem 0 0.625rem 0; }
